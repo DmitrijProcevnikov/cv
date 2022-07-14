@@ -1,0 +1,42 @@
+h2{
+    border-bottom: solid black 2px;
+}
+img {
+    border-radius: 100%;
+    
+}
+
+#img2{
+    width: 68%;
+    margin: auto;
+}
+body {    
+    background: url(./fon.jpg) no-repeat;
+    background-size: 600%;
+    background-position-y: center;
+font-family: 'Roboto', sans-serif;
+margin: auto;
+max-width: 1080px;
+display: flex;
+flex-direction: column;
+padding: 40px;
+}
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+    order: 1 1;
+}
+
+.one{
+    width: 45%;
+    min-width: 320px;
+}
