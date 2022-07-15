@@ -1,0 +1,61 @@
+h2{
+    border-bottom: solid black 2px;
+}
+img {
+    height: 100%;
+    border-radius: 100%;
+    object-fit: contain;  
+}
+
+#img{
+display: flex;
+justify-content: center;
+}
+#img2{
+    /* width: 68%; */
+    height: 300px;
+    margin: auto;
+    overflow: hidden;
+    /* object-fit: contain; */
+    /* border: solid red 1px; */
+}
+body {    
+    background: url(./fon2.jpg) no-repeat;
+    /* background-size: 800%; */
+    background-position-y: center;
+font-family: 'Roboto', sans-serif;
+margin: auto;
+max-width: 1080px;
+display: flex;
+flex-direction: column;
+padding: 40px;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.one{
+    width: 45%;
+    min-width: 320px;
+}
+
+.telegram{
+    height: 30px;
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+
+
+.svg-logo{
+    display: flex;
+}
