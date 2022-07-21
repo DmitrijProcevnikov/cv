@@ -1,6 +1,28 @@
-h2{
-    border-bottom: solid black 2px;
+
+h1{
+    text-indent: 20px;
 }
+
+h2{
+    /* border-bottom: solid black 2px; */
+    background-color: rgb(48, 48, 48);
+    color: rgb(248, 244, 244);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-indent: 20px;
+    margin: 0 15px;
+    }
+
+p{
+    margin-left: 35px;
+    max-width: 300px;
+}
+
+span{
+    margin-left: 35px;
+}
+
 img {
     height: 100%;
     border-radius: 100%;
@@ -28,24 +50,46 @@ margin: auto;
 max-width: 1080px;
 display: flex;
 flex-direction: column;
-padding: 40px;
+/* padding: 5px; */
+/* text-indent: 20px; */
 }
 header{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    /* justify-content: space-around; */
+    /* align-items: center; */
 }
 main{
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;
-    justify-content: space-around;
+    /* padding: 10px; */
+    /* justify-content: space-around; */
 }
 
 .one{
-    width: 45%;
-    min-width: 320px;
+    /* width: 45%; */
+    min-width: 300px;
+    padding: 20px 0;
+}
+
+.color1{
+    background-color: rgb(207, 190, 176);
+}
+
+.color2{
+    background-color: rgb(48, 48, 48);
+    color: rgb(248, 244, 244);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p1{
+    flex-grow: 1;
+}
+
+.p2{
+    flex-grow: 2;
 }
 
 .telegram{
@@ -58,4 +102,5 @@ main{
 
 .svg-logo{
     display: flex;
+    padding-left: 20px;
 }
