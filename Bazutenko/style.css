@@ -39,6 +39,10 @@ justify-content: center;
     margin: auto;
     overflow: hidden;
 }
+#contact{
+    text-align: center;
+}
+
 body {    
     background: url(./fon2.jpg) no-repeat;
     background-position-y: center;
@@ -90,6 +94,7 @@ main{
     height: 30px;
     overflow: hidden;
     margin-right: 5px;
+    cursor: pointer;
 }
 
 
@@ -109,5 +114,8 @@ main{
     }
     .color1, .color2, .color3{
         flex-basis: 100%;
+    }
+    .color3{
+        background-color: rgb(207, 190, 176);
     }
 }
