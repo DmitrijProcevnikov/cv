@@ -1,9 +1,16 @@
 h2{
     border-bottom: solid black 2px;
 }
-img {
+#img {
+    height: 100%;
     border-radius: 100%;
-    width: 300px;
+    object-fit: contain;  
+}
+
+img {
+    height: 100%;
+    border-radius: 100%;
+    object-fit: contain;  
 }
 
 #img2{
@@ -16,12 +23,12 @@ img {
 }
 
 .a{
-    flex-grow: 50%;
+    flex-grow: 1;
 }
 
 body {    
     background: url(./fon.jpg) no-repeat;
-    background-size: 800%;
+    background-size: 300%;
     background-position-y: center;
 font-family: 'Roboto', sans-serif;
 margin: auto;
@@ -50,11 +57,27 @@ main{
     min-width: 320px;
 }
 
+.telegram{
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.svg-logo{
+    display: flex;
+    padding-left: 20px;
+}
+
 @media (max-width: 768px) {
-    img {
+    #img {
         width: 250px;
     }
     .one{
         width: 90%;
+    }
+    body {    
+        background-size: 1000%;
     }
 }
