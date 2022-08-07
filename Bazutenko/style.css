@@ -65,7 +65,7 @@ main{
 
 .color1{
     background-color: rgb(207, 190, 176);
-    flex-basis: 40%;
+    flex-basis: 35%;
 }
 
 .color2{
@@ -74,7 +74,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-basis: 60%;
+    flex-basis: 65%;
     padding-bottom: 15px;
 }
 
@@ -82,7 +82,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-basis: 60%;
+    flex-basis: 65%;
     padding-bottom: 15px;
 }
 
@@ -103,12 +103,21 @@ main{
     display: flex;
     padding-left: 20px;
 }
-@media (max-width: 770px) {
+
+#languages{
+    display: flex;
+}
+
+#languages1{
+    width: 100%;
+}
+
+@media (max-width: 900px) {
     #img2{
         height: 250px;
     }
 }
-@media (max-width: 650px) {
+@media (max-width: 740px) {
     header, main{
         flex-wrap: wrap;
     }
