@@ -24,6 +24,10 @@ p{
     font-size: 27px;
 }
 
+#junior{
+    text-decoration-line: underline;
+}
+
 img {
     height: 100%;
     border-radius: 100%;
