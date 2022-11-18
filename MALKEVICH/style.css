@@ -1,18 +1,34 @@
 h2{
     border-bottom: solid black 2px;
 }
-img {
+#img {
+    height: 100%;
     border-radius: 100%;
-    
+    object-fit: contain;  
+}
+
+img {
+    height: 100%;
+    border-radius: 100%;
+    object-fit: contain;  
 }
 
 #img2{
-    width: 68%;
-    margin: auto;
+    display: flex;
+    justify-content: center;
 }
+
+#contacts{
+    display: flex;
+}
+
+.a{
+    flex-grow: 1;
+}
+
 body {    
     background: url(./fon.jpg) no-repeat;
-    background-size: 800%;
+    background-size: 300%;
     background-position-y: center;
 font-family: 'Roboto', sans-serif;
 margin: auto;
@@ -25,6 +41,7 @@ header{
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
+    padding: 10px;
     justify-content: space-around;
     align-items: center;
 }
@@ -38,4 +55,29 @@ main{
 .one{
     width: 45%;
     min-width: 320px;
+}
+
+.telegram{
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.svg-logo{
+    display: flex;
+    padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+    #img {
+        width: 250px;
+    }
+    .one{
+        width: 90%;
+    }
+    body {    
+        background-size: 1000%;
+    }
 }
